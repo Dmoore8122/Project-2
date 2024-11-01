@@ -41,7 +41,7 @@ h2 {
     font-size: 15px;
 }
 
-button {
+.header-content button {
     background-color: aqua;
     width: 80px;
     border-radius: 90px;
@@ -103,7 +103,6 @@ ul {
     color: rgb(74, 71, 71);
     padding-bottom: 5px;
     font-size: 20px;
-    font-weight: lighter;
 }
 
 .inspo-credit {
@@ -111,4 +110,38 @@ ul {
     display: flex;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.last-call {
+    background-color: rgb(245, 245, 245);
+    padding: 60px 150px;
+}
+
+.box {
+    background-color: rgb(12, 135, 236);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.box-text {
+    color: white;
+}
+
+.box-text1 {
+    font-size: small;
+}
+
+.box-text2 {
+    font-size: smaller;
+}
+
+.button button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
