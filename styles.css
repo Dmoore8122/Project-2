@@ -23,6 +23,7 @@
 .header-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 30px;
 }
 
@@ -144,4 +145,13 @@ ul {
     color: white;
     padding: 5px 15px;
     border-radius: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
 }
