@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-container {
     background-color:black;
     color: white;
@@ -27,7 +32,7 @@
     gap: 30px;
 }
 
-h1 {
+.header-text h1 {
     font-size: 40px;
 }
 
@@ -154,4 +159,83 @@ ul {
     font-size: x-small;
     display: flex;
     justify-content: center;
+}
+
+.second-header h1 {
+    background-color: rgb(245, 245, 245);
+    color: rgb(42, 139, 237);
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 15px;
+    display: flex;
+}
+
+.canvas-container {
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+
+}
+
+.font p, .background p, .logo-text p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text p {
+    font-weight: 1000;
+    font-size: 48px;
+}
+
+.secondary-text p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.font, .background, .text, .secondary-text, .logo-text, .button-color, .info-text{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.number-container {
+    background-color: rgb(245, 245, 245);
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.button-color p {
+    color: rgb(46, 162, 240);
+    font-size: 20px;
+}
+
+.info-text p {
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.bottom-container {
+    background-color: rgba(129, 126, 126, 0.311);
+    padding: 10px 15px 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-color p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quote-text p {
+    font-size: 36px;
+    font-style: italic;
 }
